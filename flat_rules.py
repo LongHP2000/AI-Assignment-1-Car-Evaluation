@@ -1,4 +1,4 @@
-# AI Assessment 1
+﻿# AI Assessment 1
 # Algorithm 1: Flat Rule-Based Artificial Intelligence
 # Dataset: Car Evaluation Dataset
 #
@@ -55,22 +55,21 @@ def classify_car(car):
     return "acc"
 
 
-# ----------------------------------
-# Test the rule-based AI algorithm
-# ----------------------------------
+# ============================================================
+# TEST ALGORITHM 1: FLAT RULE-BASED ARTIFICIAL INTELLIGENCE
+# ============================================================
 
-print("ALGORITHM 1: FLAT RULE-BASED AI")
-print("--------------------------------")
+if __name__ == "__main__":
 
-car1 = ["vhigh", "vhigh", "2", "2", "small", "low"]
+    print("ALGORITHM 1: FLAT RULE-BASED AI")
+    print("--------------------------------")
 
-car2 = ["low", "low", "4", "more", "big", "high"]
+    car1 = ["vhigh", "vhigh", "2", "2", "small", "low"]
+    car2 = ["low", "low", "4", "more", "big", "high"]
+    car3 = ["med", "med", "4", "4", "med", "med"]
 
-car3 = ["med", "med", "4", "4", "med", "med"]
+    print("Car 1:", classify_car(car1))
+    print("Car 2:", classify_car(car2))
+    print("Car 3:", classify_car(car3))
 
-
-print("Car 1:", classify_car(car1))
-print("Car 2:", classify_car(car2))
-print("Car 3:", classify_car(car3))
-
-print("\nFlat Rule-Based AI executed successfully!")
+    print("\nFlat Rule-Based AI executed successfully!")
