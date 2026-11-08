@@ -1,0 +1,38 @@
+# ==========================================
+# AI Assessment 1 - Git Ignore Configuration
+# ==========================================
+
+# Python temporary files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python testing and caching
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Operating system temporary files
+.DS_Store
+Thumbs.db
+
+# Editor temporary files
+*.swp
+*.swo
+
+# ==========================================
+# IMPORTANT
+# Keep project source code, datasets,
+# experimental CSV results and PNG graphs.
+# ==========================================
