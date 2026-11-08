@@ -1,0 +1,5 @@
+Actual / Predicted,unacc,acc,good,vgood
+unacc,1008,202,0,0
+acc,0,384,0,0
+good,0,68,0,1
+vgood,0,30,28,7
